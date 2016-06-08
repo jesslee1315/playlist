@@ -3,24 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../page_2/style_2.css">
   </head>
   <body>
 
-    <div id="top"></div>
-      <aside>
-        <img id="railtrack" src="resources/track.fw.png"/>
-          <section class"img_inside_railtrack">
-            <img id="album_1"><br>
-            <img id="album_2"><br>
-            <img id="album_3"><br>
-          </section>
-      </aside>
+    <div id="top">click an album to add its tracks to the bin</div>
+      <section id = "container">
+        <div id="scrollbar">
+
+        </div>
+      </section>
+
     </div>
 
     <section>
-      <h3 id="track_bin_title">track bin</h3>
-      <button id="tracks_butt" type="button" name="chooseTracks">choose tracks</button>
+      <div id="textarea" name="albums">
+
+     </div>
+        <button id="clear_butt" type="button" name="clearTracks">clear tracks</button>
+        <button id="submit_butt" type="button" name="submitBin">submit bin</button>
     </section>
       <!-- <select name="my_select" style="height: 40px; line-height: 100px;">
         <option name="reggae"> Select your genre </option>
@@ -32,6 +33,6 @@
         <footer>&copy 2016 Jess Lee</footer>
       </div>
       <script   src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="script.js"> </script>
+      <script type="text/javascript" src="../page_2/script_2.js"> </script>
   </body>
 </html>
