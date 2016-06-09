@@ -13,7 +13,7 @@ body {
   height: 15vh;
   border: 1px solid black;
   display: inline-block;
-  margin: 0px 50px 0px 50px;
+  margin: 0px 35px 0px 50px;
 }
 
 #top {
@@ -22,8 +22,14 @@ body {
   background-color: #9B9B8C;
   border: 1px solid;
   color: white;
+}
+
+h1{
   text-align: center;
   font-size: 35px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 150px 647px 0px 0px;
+  text-overflow: hidden;
 }
 
 #container {
@@ -36,7 +42,6 @@ body {
   overflow-y: hidden;
 }
 
-
 #textarea{
   text-align: center;
   border: solid 2px;
@@ -45,6 +50,10 @@ body {
   width: 80vw;
   height: 32vh;
   font-size: 30px;
+  margin: 279px 0px 65px 161px;
+  position: relative;
+  font-family: "Arial Black", Gadget, sans-serif;
+  overflow: scroll;
 }
 
 #clear_butt{
@@ -55,7 +64,8 @@ body {
   padding: 8px 50px;
   border-radius: 8px;
   position: relative;;
-  margin: 0px 0px 100px 85px;
+  margin: 0px 0px 100px 163px;
+  font-family: "Arial Black", Gadget, sans-serif;
 ;
 
 }
@@ -69,6 +79,7 @@ body {
   border-radius: 8px;
   position: absolute;
   margin: 0px 0px 0px 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 
